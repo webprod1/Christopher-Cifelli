@@ -9,7 +9,7 @@ Content and configuration: src/content.ts. Styling: src/style.css. Local origina
 
 ## Required before launch
 - Approved logo (or approval of provisional wordmark).
-- Official covers for The First Act and The Second Act.
+- Book covers supplied by the user are included locally.
 - Approved author biography and portrait.
 - Verified gallery images and captions; currently omitted.
 - Verified press/review text with attribution; currently omitted.
