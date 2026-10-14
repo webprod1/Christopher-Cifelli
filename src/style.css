@@ -17,3 +17,6 @@
 /* Full-width dark gradient contact section */
 #contact{background:radial-gradient(ellipse at 8% 15%,#24616c66,transparent 55%),radial-gradient(ellipse at 90% 100%,#65406566,transparent 58%),linear-gradient(120deg,#102b3d 0%,#111d32 52%,#211b35 100%);color:#f5eee2;border-top:1px solid #b9d2d52b;border-bottom:1px solid #b9d2d52b}#contact h2{color:#f5eee2}#contact h2 em{color:#ebc78f}#contact .eyebrow{color:#e8bd7e}#contact>div>p{color:#c1cdd6}#contact .status{color:#c1cdd6}#contact .status span{background:#e5bb78}#contact .forms{background:linear-gradient(145deg,#18394bd9,#0c1929eb);border-color:#9cbbca44;box-shadow:0 18px 45px #020a1940}
 
+/* Dark gradient navigation */
+header{background:linear-gradient(110deg,#123445 0%,#111f34 55%,#281f39 100%);color:#f5eee2;border-bottom:1px solid #b7d0dc33;box-shadow:0 4px 20px #1024381a}header .brand{color:#f5eee2}header .emblem{color:#e7bd7a}header nav a{color:#e3eaf0}header nav a:hover{color:#f1cd92}header .nav-cta{background:linear-gradient(120deg,#26495a,#313044);border-color:#d5b57a77;color:#f5eee2}header .nav-cta span{color:#ebc48a}header .menu-toggle{color:#f5eee2;border-color:#b3c9d655}header a:focus-visible,header button:focus-visible{outline-color:#f0ca88}@media(max-width:700px){header nav{background:linear-gradient(135deg,#133447,#141e33 65%,#2a213b);box-shadow:0 15px 25px #07132155}}
+
