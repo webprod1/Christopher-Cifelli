@@ -26,3 +26,6 @@ header{background:linear-gradient(110deg,#123445 0%,#111f34 55%,#281f39 100%);co
 
 /* Footer continues the dark contact palette edge to edge. */
 footer{margin:0;padding:40px 8% 25px;background:radial-gradient(ellipse at 8% 15%,#24616c44,transparent 55%),radial-gradient(ellipse at 90% 100%,#65406555,transparent 58%),linear-gradient(120deg,#102b3d 0%,#111d32 52%,#211b35 100%);color:#f5eee2;border-top:1px solid #b9d2d52b}footer .brand{color:#f5eee2}footer .brand span{color:#e8bf80}footer p{color:#c1cdd6}footer>a:last-of-type{color:#ebc78f;min-height:44px;display:inline-flex;align-items:center;transition:color .2s}footer>a:last-of-type:hover{color:#fff1d2}footer small{color:#acbdc9}footer a:focus-visible{outline-color:#f0ca88}@media(max-width:700px){footer{margin:0;padding:32px 6% 25px}}
+/* Half-transparent header over the hero artwork. */
+header{background:linear-gradient(110deg,rgba(18,52,69,.5) 0%,rgba(17,31,52,.5) 55%,rgba(40,31,57,.5) 100%)}
+
