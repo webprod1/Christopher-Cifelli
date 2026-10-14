@@ -29,3 +29,4 @@ footer{margin:0;padding:40px 8% 25px;background:radial-gradient(ellipse at 8% 15
 /* Half-transparent header over the hero artwork. */
 header{background:linear-gradient(110deg,rgba(18,52,69,.5) 0%,rgba(17,31,52,.5) 55%,rgba(40,31,57,.5) 100%)}
 
+header{background:linear-gradient(110deg,#123445 0%,#111f34 55%,#281f39 100%)}
