@@ -1,7 +1,7 @@
 export const site = {
   title: 'Darkwind Chronicles', author: 'Christopher Michael Cifelli',
   ownership: 'Darkwind Chronicles · Christopher Michael Cifelli',
-  biography: '', portrait: 'author-portrait.png', deploymentUrl: '',
+  biography: 'My name is Christopher Michael Cifelli, the only child of Donato and Angelinla Cifelli. I was born and raised in Philadelphia, PA, where I still live. I attended Edwin Bok Vocational High School and graduated in 2006. My hobbies are playing video games and writing stories.', portrait: 'author-portrait.png', deploymentUrl: '',
   reviews: [] as { quote: string; source: string }[],
   gallery: [] as { src: string; alt: string }[],
   books: [
