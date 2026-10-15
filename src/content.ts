@@ -1,7 +1,7 @@
 export const site = {
   title: 'Darkwind Chronicles', author: 'Christopher Michael Cifelli',
   ownership: 'Darkwind Chronicles · Christopher Michael Cifelli',
-  biography: '', portrait: '', deploymentUrl: '',
+  biography: '', portrait: 'author-portrait.png', deploymentUrl: '',
   reviews: [] as { quote: string; source: string }[],
   gallery: [] as { src: string; alt: string }[],
   books: [
