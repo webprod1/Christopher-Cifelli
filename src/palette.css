@@ -35,3 +35,9 @@ dialog{background:var(--paper);border-color:#b69a6b}
 /* Light contact section with a contrasting navy form card. */
 #contact{background:var(--paper);color:var(--ink);border-top-color:#29485c22;border-bottom-color:#29485c22}#contact h2{color:var(--ink)}#contact h2 em,#contact .eyebrow{color:var(--gold)}#contact>div>p,#contact .status{color:var(--muted)}#contact .status span{background:var(--gold)}#contact .forms{background:var(--dark-surface);border-color:#9cbbca38;box-shadow:0 14px 30px #19344818}
 
+
+/* Restrained interaction motion */
+header nav a:not(.nav-cta){position:relative}header nav a:not(.nav-cta):after{content:'';position:absolute;bottom:5px;left:0;right:0;height:1px;background:#e7bd7a;transform:scaleX(0);transform-origin:left;transition:transform .25s ease}header nav a:not(.nav-cta):hover:after,header nav a:not(.nav-cta):focus-visible:after{transform:scaleX(1)}
+dialog[open]{animation:book-dialog-in .25s ease-out both}dialog[open]::backdrop{animation:book-backdrop-in .25s ease-out both}dialog[open].is-closing{animation:book-dialog-out .18s ease-in both}dialog[open].is-closing::backdrop{animation:book-backdrop-out .18s ease-in both}
+@keyframes book-dialog-in{from{opacity:0;transform:translateY(8px) scale(.97)}to{opacity:1;transform:none}}@keyframes book-dialog-out{from{opacity:1;transform:none}to{opacity:0;transform:translateY(5px) scale(.98)}}@keyframes book-backdrop-in{from{opacity:0}to{opacity:1}}@keyframes book-backdrop-out{from{opacity:1}to{opacity:0}}
+@media(prefers-reduced-motion:reduce){dialog[open],dialog[open]::backdrop,dialog[open].is-closing,dialog[open].is-closing::backdrop{animation:none}header nav a:not(.nav-cta):after{transition:none}}
