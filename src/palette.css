@@ -1,0 +1,24 @@
+/* Shared color system: ivory, navy, teal, and antique gold. */
+:root{--paper:#faf7ef;--paper-soft:#f0f2eb;--ink:#193448;--muted:#516574;--gold:#946323;--dark-surface:linear-gradient(115deg,#123445,#111f34);--dark-text:#f5eee2;--dark-muted:#c1cdd6;--light-gold:#e7bd7a;background:var(--paper);color:var(--ink)}
+body,.books{background:var(--paper)}
+.hero{background:#e8efea}
+.hero-shade{background:linear-gradient(90deg,#faf7effa 0%,#faf7efeb 38%,#edf3ea45 85%),linear-gradient(0deg,var(--paper),transparent 65%)}
+.mist-one{background:radial-gradient(ellipse,#63a89d40,transparent 68%);opacity:.45}
+.mist-two{background:radial-gradient(ellipse,#b5cbb62e,transparent 70%);opacity:.35}
+.author{background:var(--paper-soft);border-color:#29485c22}
+.author-art{background:repeating-radial-gradient(ellipse at center,transparent 0 20px,#8b733312 21px 22px);border-color:#a2895845;color:var(--gold)}
+header,#contact,footer{background:var(--dark-surface);color:var(--dark-text)}
+header .brand,header nav a,#contact h2,footer .brand{color:var(--dark-text)}
+header .emblem,header .nav-cta span,#contact .eyebrow,#contact h2 em,#contact .forms summary span,footer .brand span,footer>a:last-of-type{color:var(--light-gold)}
+header .nav-cta{background:#ffffff08;border-color:#d5b57a66}
+header .nav-cta:hover{background:#ffffff12}
+#contact>div>p,#contact .status,footer p{color:var(--dark-muted)}
+#contact .forms{background:#0b1d2ca6;border-color:#9cbbca38;box-shadow:0 14px 30px #020a1926}
+.forms input,.forms textarea{background:#0b1b2a;border-color:#7e99ad55}
+.button{background:#dfbb7e;border-color:#bc955b;box-shadow:0 4px 15px #9e7e3415}
+.button:hover:enabled,.button:hover[href]{background:#ebcb95}
+.book-feature .cover{box-shadow:6px 10px 22px #18344830}
+footer{border-top-color:#b9d2d525}
+footer small{color:#acbdc9}
+dialog{background:var(--paper);border-color:#b69a6b}
+@media(max-width:700px){header nav{background:var(--dark-surface)}.hero-shade{background:linear-gradient(90deg,#faf7eff5,#faf7efc9),linear-gradient(0deg,var(--paper),transparent 70%)}}
