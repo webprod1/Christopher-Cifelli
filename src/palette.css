@@ -27,3 +27,6 @@ dialog{background:var(--paper);border-color:#b69a6b}
 @media(min-width:701px) and (max-width:1200px){.book-grid{gap:55px}.book-feature{grid-template-columns:1fr;gap:30px}.book-feature .cover{width:85%;max-width:300px}.book-copy{max-width:360px;width:100%;margin:0 auto}}
 @media(max-width:700px){.book-grid{gap:64px}.book-feature{grid-template-columns:1fr;gap:26px}.book-feature .cover{width:76%;max-width:290px;margin:0 auto}.book-copy{max-width:390px;width:100%;margin:0 auto}.book-copy h3{font-size:32px;margin:12px 0 16px}.book-copy p{font-size:14px}.book-copy .eyebrow{font-size:9px;letter-spacing:1.4px}.book-copy button.text-link{width:100%;font-size:14px;padding:15px 20px;min-height:50px}}
 
+/* Restore understated book-detail links. */
+.book-copy button.text-link{display:inline-flex;justify-content:flex-start;gap:25px;width:auto;min-height:48px;padding:14px 0;margin-top:0;background:transparent;border:0;border-bottom:1px solid #a77f4955;color:#193b50;font-size:13px;box-shadow:none}.book-copy button.text-link span{color:#916126}.book-copy button.text-link:hover{background:transparent;color:#946323;box-shadow:none}@media(max-width:700px){.book-copy button.text-link{width:auto;font-size:13px;padding:14px 0}}
+
