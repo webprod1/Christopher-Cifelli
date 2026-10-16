@@ -81,3 +81,4 @@ dialog[open]{animation:book-dialog-in .25s ease-out both}dialog[open]::backdrop{
 /* Hover motion for Explore/Discover and right-pointing text links. */
 @media(hover:hover) and (prefers-reduced-motion:no-preference){a:hover .arrow-diagonal,button:hover .arrow-diagonal{transform:translate(4px,-4px)}a:hover .arrow-right,button:hover .arrow-right{transform:translateX(5px)}a:not(:hover) .arrow-icon,button:not(:hover) .arrow-icon{transform:none}}
 @media(prefers-reduced-motion:no-preference){a:focus-visible .arrow-diagonal,button:focus-visible .arrow-diagonal{transform:translate(4px,-4px)}a:focus-visible .arrow-right,button:focus-visible .arrow-right{transform:translateX(5px)}}
+a:focus-visible:not(:hover) .arrow-icon,button:focus-visible:not(:hover) .arrow-icon{transform:none}
