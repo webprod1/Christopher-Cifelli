@@ -69,3 +69,5 @@ dialog[open]{animation:book-dialog-in .25s ease-out both}dialog[open]::backdrop{
 /* Fill trailer frames with their poster artwork. */
 .trailer-card .review-player{overflow:hidden}.trailer-card .review-player video{object-fit:cover;object-position:center}.trailer-card .review-player:has(video[controls]) video{object-fit:contain}.trailer-card .review-play-overlay:before{background:linear-gradient(0deg,#081a2bc7,transparent 55%)}.trailer-card .review-play-overlay{padding:16px}.trailer-card .review-play-overlay .interview-play-icon{background:#102c40cf;box-shadow:0 3px 12px #0004}.trailer-card .review-play-overlay>span:last-child{text-shadow:0 2px 8px #000b}
 
+
+.arrow-icon{display:inline-block;width:18px;height:18px;vertical-align:middle;flex-shrink:0}.button>span,.text-link>span,.nav-cta>span{display:inline-flex;align-items:center}.hero-bottom a,footer>a:last-of-type{display:inline-flex;align-items:center;gap:12px}.hero-bottom .arrow-icon{width:14px;height:14px}.play-icon{display:block;width:25px;height:25px;margin-left:3px}
