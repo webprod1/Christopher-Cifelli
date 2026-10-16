@@ -71,3 +71,6 @@ dialog[open]{animation:book-dialog-in .25s ease-out both}dialog[open]::backdrop{
 
 
 .arrow-icon{display:inline-block;width:18px;height:18px;vertical-align:middle;flex-shrink:0}.button>span,.text-link>span,.nav-cta>span{display:inline-flex;align-items:center}.hero-bottom a,footer>a:last-of-type{display:inline-flex;align-items:center;gap:12px}.hero-bottom .arrow-icon{width:14px;height:14px}.play-icon{display:block;width:25px;height:25px;margin-left:3px}
+/* Shared floating treatment for media and contact panels. */
+:root{--floating-shadow:8px 14px 26px #18344835,0 3px 8px #18344812}.review-player,.interview-player,.trailer-card .review-player,#contact .forms,.author-portrait{box-shadow:var(--floating-shadow)}
+
