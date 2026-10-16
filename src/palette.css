@@ -77,3 +77,7 @@ dialog[open]{animation:book-dialog-in .25s ease-out both}dialog[open]::backdrop{
 
 /* Direction-aware arrow motion on pointer hover and keyboard focus. */
 .arrow-icon{transition:transform .25s ease}.book-copy .text-link:hover span,.book-copy .text-link:focus-visible span{transform:none}a:is(:hover,:focus-visible) .arrow-right,button:is(:hover,:focus-visible) .arrow-right{transform:translateX(5px)}a:is(:hover,:focus-visible) .arrow-diagonal,button:is(:hover,:focus-visible) .arrow-diagonal{transform:none}a:is(:hover,:focus-visible) .arrow-up,button:is(:hover,:focus-visible) .arrow-up{transform:none}a:is(:hover,:focus-visible) .arrow-down,button:is(:hover,:focus-visible) .arrow-down{transform:none}@media(prefers-reduced-motion:reduce){.arrow-icon{transition:none}a:is(:hover,:focus-visible) .arrow-icon,button:is(:hover,:focus-visible) .arrow-icon{transform:none}}
+
+/* Hover motion for Explore/Discover and right-pointing text links. */
+@media(hover:hover) and (prefers-reduced-motion:no-preference){a:hover .arrow-diagonal,button:hover .arrow-diagonal{transform:translate(4px,-4px)}a:hover .arrow-right,button:hover .arrow-right{transform:translateX(5px)}a:not(:hover) .arrow-icon,button:not(:hover) .arrow-icon{transform:none}}
+@media(prefers-reduced-motion:no-preference){a:focus-visible .arrow-diagonal,button:focus-visible .arrow-diagonal{transform:translate(4px,-4px)}a:focus-visible .arrow-right,button:focus-visible .arrow-right{transform:translateX(5px)}}
