@@ -74,3 +74,6 @@ dialog[open]{animation:book-dialog-in .25s ease-out both}dialog[open]::backdrop{
 /* Shared floating treatment for media and contact panels. */
 :root{--floating-shadow:8px 14px 26px #18344835,0 3px 8px #18344812}.review-player,.interview-player,.trailer-card .review-player,#contact .forms,.author-portrait{box-shadow:var(--floating-shadow)}
 
+
+/* Direction-aware arrow motion on pointer hover and keyboard focus. */
+.arrow-icon{transition:transform .25s ease}.book-copy .text-link:hover span,.book-copy .text-link:focus-visible span{transform:none}a:is(:hover,:focus-visible) .arrow-right,button:is(:hover,:focus-visible) .arrow-right{transform:translateX(5px)}a:is(:hover,:focus-visible) .arrow-diagonal,button:is(:hover,:focus-visible) .arrow-diagonal{transform:translate(3px,-3px)}a:is(:hover,:focus-visible) .arrow-up,button:is(:hover,:focus-visible) .arrow-up{transform:translateY(-4px)}a:is(:hover,:focus-visible) .arrow-down,button:is(:hover,:focus-visible) .arrow-down{transform:translateY(4px)}@media(prefers-reduced-motion:reduce){.arrow-icon{transition:none}a:is(:hover,:focus-visible) .arrow-icon,button:is(:hover,:focus-visible) .arrow-icon{transform:none}}

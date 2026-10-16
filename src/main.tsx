@@ -5,7 +5,7 @@ import {ScrollTrigger} from 'gsap/ScrollTrigger';
 import {site} from './content';
 import './style.css';
 gsap.registerPlugin(ScrollTrigger);
-function Arrow({direction='diagonal'}:{direction?:'diagonal'|'right'|'up'|'down'}){const paths={diagonal:'M5 19 19 5M5 5h14v14',right:'M4 12h16m-6-6 6 6-6 6',up:'M12 20V4m-6 6 6-6 6 6',down:'M12 4v16m-6-6 6 6 6-6'};return <svg className="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" focusable="false"><path d={paths[direction]}/></svg>}
+function Arrow({direction='diagonal'}:{direction?:'diagonal'|'right'|'up'|'down'}){const paths={diagonal:'M5 19 19 5M5 5h14v14',right:'M4 12h16m-6-6 6 6-6 6',up:'M12 20V4m-6 6 6-6 6 6',down:'M12 4v16m-6-6 6 6 6-6'};return <svg className={"arrow-icon arrow-"+direction} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" focusable="false"><path d={paths[direction]}/></svg>}
 function PlayIcon(){return <svg className="play-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M7 4v16l13-8Z"/></svg>}
 function App(){
  const [playInterview,setPlayInterview]=useState(false); const [playSecondTrailer,setPlaySecondTrailer]=useState(false); const secondTrailerVideo=useRef<HTMLVideoElement>(null); const [playTrailer,setPlayTrailer]=useState(false); const trailerVideo=useRef<HTMLVideoElement>(null); const [playReview,setPlayReview]=useState(false); const reviewVideo=useRef<HTMLVideoElement>(null);
