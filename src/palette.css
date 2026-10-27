@@ -96,3 +96,6 @@ a:focus-visible:not(:hover) .arrow-icon,button:focus-visible:not(:hover) .arrow-
 /* Soft depth follows the transparent emblem silhouette. */
 .hero-logo{filter:drop-shadow(0 7px 10px #102c3d33)}header .brand-logo,.footer-logo{filter:drop-shadow(0 2px 3px #0005)}.opening-logo{filter:drop-shadow(0 5px 9px #0005)}
 
+
+/* Clearer series caption and act labels. */
+.sigil-caption{font-size:27px;letter-spacing:7px;color:#805323}.sigil-caption span{font-size:11px;letter-spacing:2.8px;color:#385964;font-weight:600;line-height:1.7}.book-copy .eyebrow{display:block;font-size:11px;letter-spacing:1.4px;line-height:1.8;color:#765020}.forms details[open]>summary{margin-bottom:8px}@media(max-width:1100px){.sigil-caption{font-size:22px;letter-spacing:4px}.sigil-caption span{font-size:10px;letter-spacing:1.6px}}@media(max-width:700px){.book-copy .eyebrow{font-size:11px;letter-spacing:1.1px}}
