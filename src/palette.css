@@ -88,3 +88,5 @@ a:focus-visible:not(:hover) .arrow-icon,button:focus-visible:not(:hover) .arrow-
 
 /* Supplied author identity, displayed without color filters. */
 .brand-logo{display:block;width:48px;height:48px;object-fit:contain;border-radius:50%;flex-shrink:0}.hero-logo{display:block;width:78%;height:auto;aspect-ratio:1;margin:0 auto 20px;object-fit:contain;border-radius:50%}.opening-logo{display:block;width:140px;height:140px;object-fit:contain;border-radius:50%}.footer-logo{width:38px;height:38px}.hero-sigil{filter:none}@media(max-width:700px){header .brand-logo{width:38px;height:38px}.hero-logo{width:80%}}
+
+.brand-logo,.hero-logo,.opening-logo{border-radius:0;object-fit:contain}.hero-logo{width:68%;max-width:310px;margin-bottom:24px}.opening-logo{width:135px;height:135px}header .brand-logo{width:44px;height:44px}.footer-logo{width:34px;height:34px}@media(max-width:700px){header .brand-logo{width:36px;height:36px}.hero-logo{width:74%}}
